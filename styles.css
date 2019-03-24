@@ -1,0 +1,30 @@
+.navbar-brand,
+.navbar-nav a {
+    color: #97403B !important;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*.kazbegi {
+    position: absolute;
+    display: grid;
+    height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
