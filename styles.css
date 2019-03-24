@@ -1,20 +1,54 @@
+
 .navbar-brand,
 .navbar-nav a {
     color: #97403B !important;
 }
 
-.card-deck {
-    display: flex;
-    justify-content: space-between;
+.navbar-brand {
+font-family: 'Rhodium Libre', serif !important;
+font-style: normal;
+font-weight: normal;
+font-size: 37px;
 }
 
-.todo {
+.navbar-toggler-icon {
+    background-color: #97403B;
+}
+
+h1 {
+    color: #337032;
+}
+
+h3 {
+    color: #97403B;
+}
+
+h1, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card-deck {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #ECF9F9;
+    border-radius: 22px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 img {
     max-width: 100%;
+}
+
+.card-header img {
+    max-width: 100px !important;
+    max-height: auto !important;
 }
 
 /*.kazbegi {
