@@ -1,4 +1,5 @@
 
+
 .navbar-brand,
 .navbar-nav a {
     color: #97403B !important;
@@ -11,44 +12,55 @@ font-weight: normal;
 font-size: 37px;
 }
 
-.navbar-toggler-icon {
-    background-color: #97403B;
-}
 
 h1 {
     color: #337032;
 }
 
-h3 {
+h3, h4 {
     color: #97403B;
 }
 
 h1, h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.card-deck {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .card {
     background-color: #ECF9F9;
     border-radius: 22px;
 }
 
-.activities {
-    display: flex;
-    justify-content: space-between;
-    
-}
 
 img {
     max-width: 100%;
 }
 
 .card-header img {
-    max-width: 100px !important;
+    max-width: 100% !important;
     max-height: auto !important;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+.card-deck h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.card-deck a {
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #97403B;
+    font-size: 30px;
+}
+
+.footer p{
+    font-family: 'Rhodium Libre', serif;
+    color: #97403B;
+    font-size: 37px;
+    text-align: right;
 }
 
 /*.kazbegi {
